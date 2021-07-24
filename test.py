@@ -1,1 +1,1 @@
-print(type(type(5)))
+print((-2)%8)
