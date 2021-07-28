@@ -1,3 +1,3 @@
 # python_study
 
-agify.py - 나이와 국적 추측
+문제푼거랑 실습해본거 올리는 곳
