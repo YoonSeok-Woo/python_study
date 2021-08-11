@@ -8,6 +8,9 @@ for _ in range(T) :
     while now_location+K<N :
         
         count+=1
+        if now_location+K<stop_num[i]:
+            print('#%d %d' %(_+1, 0))
+            break
         while i<M and now_location+K >= stop_num[i] :
             i+=1
         
