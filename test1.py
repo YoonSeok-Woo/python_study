@@ -11,9 +11,10 @@ def dfs(p,q):
     l = len(p)
     mq = max(q)
     for i in range(l):
-        for j in range(i+1,l):
-            temp = p[:]
-            t1 = temp.pop(i)
+        temp = p[:]
+        t1 = temp.pop(i)
+        for j,num in enumerate():
+            
             print(temp,p,i,j)
             t2 = temp.pop(j)
             if t2>mq:
