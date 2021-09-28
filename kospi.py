@@ -4,8 +4,10 @@ from bs4 import BeautifulSoup
 url = 'https://finance.naver.com/sise/'
 response = requests.get(url).text # 요청 보내고 받은 응답 text로 변환
 data = BeautifulSoup(response, 'html.parser')
+print(data)
 kospi = data.select_one('#KOSPI_now')
 change = data.select_one('#KOSPI_change')
+print(kospi)
 result = kospi.text
 res2 = change.text
 
